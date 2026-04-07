@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 23px 23px;
+}
+
+.myimage {
+    height: 50px;
+    margin: 0;
+
+}
+
+#navbar h4 {
+    padding-left: 20px;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(26, 34, 69, 2.375);
+    color: white;
+    height: 15px;
+    padding: 35px 20px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: orange;
+}
+#home,
+#contact-section,
+#about-section,
+#skills-section {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap; /* important */
+}
+
+/* #home {
+    display: flex;
+    height: 100vh;
+} */
+
+/* CONTACT INFO */
+/* #contact-section {
+    display: flex;
+    height: 100vh;
+} */
+
+.contact-info {
+
+    margin-top: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.item span {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.item p {
+    margin: 0;
+}
+/* about */
+/* #about-section {
+    display: flex;
+    height: 100vh;
+} */
+#about-section h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#about-section ol{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+#about-section ol li{
+    padding: 10px;
+    color: rgb(238, 65, 65);
+    font-size: 1.3rem;
+}
+/* skills */
+/* #skills-section{
+     display: flex;
+    height: 100vh;
+} */
+#skills-section .skill-info{
+    display: flex;
+}
+#skills-section .skill-info img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 10px;
+}
+#skills-section .skill-info .item{
+    margin: 15px 15px;
+    padding: 23px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 25px;
+}   
+#skills-section .skill-info2{
+    display: flex;
+}
+#skills-section .skill-info2 img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 10px;
+}
+#skills-section .skill-info2 .item{
+    margin: 15px 15px;
+    padding: 23px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 25px;
+}
+/* utility classes */
+/* LEFT SIDE IMAGE */
+.left {
+    width: 50%;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right {
+    width: 50%;
+    background: #1c1c1c;
+    color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.right h1::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.btn-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 20%;
+    background-color: darkred;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: black;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: black;
+}

@@ -1,0 +1,69 @@
+
+@media (max-width: 768px) {
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .right {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .right h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul li a {
+        padding: 10px;
+        display: block;
+    }
+}
+#skills-section .skill-info,
+#skills-section .skill-info2 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    #skills-section .skill-info .item,
+    #skills-section .skill-info2 .item {
+        width: 40%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #skills-section .skill-info .item,
+    #skills-section .skill-info2 .item {
+        width: 80%;
+    }
+}
+#about-section ol {
+    padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+    #about-section ol {
+        padding-left: 20px;
+    }
+}
+.btn {
+    width: auto;
+    padding: 10px 20px;
+}
+* {
+    box-sizing: border-box;
+}
